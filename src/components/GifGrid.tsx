@@ -3,6 +3,7 @@
 // import {useEffect, useState} from "react";
 import {GifItem} from "./GifItem.tsx";
 import {useFetchGifs} from "../hooks/useFetchGifs";
+import {amd} from "globals";
 
 export const GifGrid = ({ category }: any) => {
 
